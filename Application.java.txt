@@ -18,3 +18,17 @@ class NetBanking
                 valid = true;
                 info = account;
                 accounts = accounts2;
+           #feature101 changed by vivek on oct 2022
+
+           authenticatedActions = new AuthenticatedActions(); // Enable access to restricted methods
+                System.out.println("\nLogin successful");
+            } 
+        }
+        if(!valid)
+            System.out.println("Login failed, Invalid Account no or password");
+    }
+
+    // Inner class to hold methods that are only accessible after login
+    class AuthenticatedActions
+ 
+      # end of feature101changes
