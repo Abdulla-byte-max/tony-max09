@@ -1,0 +1,8 @@
+Comes with Git v2.52.0.
+Comes with PCRE2 v10.47.
+Comes with cURL v8.17.0.
+The Git for Windows installer is now built with version 6.6.0 of InnoSetup, giving it a more modern look.
+Bug Fixes
+The command git help git-bash was broken by a change in upstream Git v2.49.0, which has been fixed.
+▷
+Changes in v
