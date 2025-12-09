@@ -18,6 +18,7 @@ class NetBanking
                 valid = true;
                 info = account;
                 accounts = accounts2;
+ feature102
               #feature102 changes by ethan on oct 2022
         
         {
@@ -31,4 +32,20 @@ class NetBanking
 
         // deposit amount 
 
-          #end of feature102 changes 
+          #end of feature102 changes
+          
+           #feature101 changed by vivek on oct 2022
+
+           authenticatedActions = new AuthenticatedActions(); // Enable access to restricted methods
+                System.out.println("\nLogin successful");
+            } 
+        }
+        if(!valid)
+            System.out.println("Login failed, Invalid Account no or password");
+    }
+
+    // Inner class to hold methods that are only accessible after login
+    class AuthenticatedActions
+ 
+      # end of feature101changes
+ database
