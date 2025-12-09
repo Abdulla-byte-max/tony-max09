@@ -18,6 +18,22 @@ class NetBanking
                 valid = true;
                 info = account;
                 accounts = accounts2;
+ feature102
+              #feature102 changes by ethan on oct 2022
+        
+        {
+        private AuthenticatedActions() {} // default constructor as private so that it can be instatiated by only his parent class
+
+        // Method to display account info (restricted)
+        public void displayAccountInfo() 
+        {
+            info.displayAccountDetails();
+        }
+
+        // deposit amount 
+
+          #end of feature102 changes
+          
            #feature101 changed by vivek on oct 2022
 
            authenticatedActions = new AuthenticatedActions(); // Enable access to restricted methods
@@ -32,3 +48,4 @@ class NetBanking
     class AuthenticatedActions
  
       # end of feature101changes
+ database
