@@ -1,0 +1,20 @@
+import java.util.*;
+
+class NetBanking 
+{
+    private boolean valid = false;
+    private BankAccount info = new BankAccount();
+    private AuthenticatedActions authenticatedActions;
+    ArrayList<BankAccount> accounts = new ArrayList<>();
+
+
+    // Method to login to account
+    public void loginAccount(long netBankingId, String netBankingPass, ArrayList<BankAccount> accounts2) 
+    {
+        for (BankAccount account : accounts2) 
+        {
+            if (account.getNetBankingId() == netBankingId && account.getNetBankingPass().equalsIgnoreCase(netBankingPass)) 
+            {
+                valid = true;
+                info = account;
+                accounts = accounts2;
