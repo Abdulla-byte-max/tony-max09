@@ -1,8 +1,43 @@
-Comes with Git v2.52.0.
-Comes with PCRE2 v10.47.
-Comes with cURL v8.17.0.
-The Git for Windows installer is now built with version 6.6.0 of InnoSetup, giving it a more modern look.
-Bug Fixes
-The command git help git-bash was broken by a change in upstream Git v2.49.0, which has been fixed.
+Changes in v2.29.2(2)
+since v2.29.2 (October 30th 2020)
 ▷
-Changes in v
+Changes in v2.29.2
+since v2.29.1 (October 23rd 2020)
+▷
+Changes in v2.29.1
+since v2.29.0 (October 19th 2020)
+▷
+Changes in v2.29.0
+since v2.28.0 (July 28th 2020)
+▷
+Changes in v2.28.0
+since v2.27.0 (June 1st 2020)
+▷
+Changes in v2.27.0
+since v2.26.2 (April 20th 2020)
+▷
+Changes in v2.26.2
+since v2.26.1 (April 9th 2020)
+▷
+Changes in v2.26.1
+since v2.26.0 (March 23rd 2020)
+▷
+Changes in v2.26.0
+since v2.25.1 (February 19th 2020)
+▷
+Changes in v2.25.1
+since v2.25.0 (January 13th 2020)
+▷
+Changes in v2.25.0
+since v2.24.1(2) (December 10th 2019)
+▷
+Changes in v2.24.1(2)
+since v2.24.0(2) (November 6th 2019)
+▷
+Changes in v2.24.0(2)
+since v2.24.0 (November 4th 2019)
+▷
+Changes in v2.24.0
+since v2.23.0 (August 17th 2019)
+▷
+Changes in v2.23.0
