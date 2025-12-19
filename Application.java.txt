@@ -18,3 +18,23 @@ class NetBanking
                 valid = true;
                 info = account;
                 accounts = accounts2;
+ change the code ....
+import java.util.*;
+
+class Main {
+  public static void main(String[] args) {
+
+    HashMap<String, String> map = new HashMap<>();
+
+    map.put("name", "Abdulla");
+    map.put("city", "Mumbai");
+
+    System.out.println("Before: " + map);
+
+    // change / update value
+    map.put("city", "Pune");
+
+    System.out.println("After: " + map);
+  }
+}
+#relevant code
